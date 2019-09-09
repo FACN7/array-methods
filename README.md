@@ -106,62 +106,12 @@ let value = arr.reduce(function(accumulator, value) {
 ```
 What is the value?
 
-
----
-### Challenge pt 1
-Using the reduce() method, can we convert this array of countries and populations to an object, where each key is the country name, and the value is the population?
-
-```js
-let data = [
-  {
-    country: 'China',
-    pop: 1409517397,
-  },
-  {
-    country: 'India',
-    pop: 1339180127,
-  },
-  {
-    country: 'USA',
-    pop: 324459463,
-  },
-  {
-    country: 'Indonesia',
-    pop: 263991379,
-  }
-]
-```
-
-### Challenge pt 2
-Using `Object.keys()` (look it up :D) and one of the other array methods, do the reverse of challenge 1. That is, convert your object of countries into an array that looks like `data` above.
-
-### Challenge pt 3
-Using reduce, calculate the sum of all sub-arrays 
-for example, the sum of the following array would be 27:
-```js
-var arr = [
-  [1,2,3],
-  [1,2,3],
-  [4,5,6]
-];
-```
-
-### Challenge pt 4
-You have learned that you can map an array and square every element in it, e.g.:
-```js
-  return [1,2,3].map(function(element){
-    return element*element;
-  } // Would return [1,4,9]
-```
-Implement the same functionality with reduce
-
 ---
 
 ## For Each
 
 ### When to use?
-**When you need to execute a function on each element in an array and CANNOT use another method**
-Normally one of the other methods will do for manipulating arrays/data. forEach is more commonly used if you want to do something external to your JS - eg: creating DOM nodes, making requests.
+**When you need to execute a function on each element in an array and CANNOT use another method.** Normally one of the other methods will do for manipulating arrays/data. forEach is more commonly used if you want to do something external to your JS - eg: creating DOM nodes, making requests.
 
 - Loops over each element in an array
 - nothing is returned, is used to **execute a function on each element**
@@ -172,13 +122,16 @@ array.forEach(function(element){
   console.log(element);
 });
 ```
-### Challenge pt 5
-Use forEach to log an x amount of stars `*` where there's an x in the array, for example:
-```js
-arr = [1,2,3,1];
-// would log 
-// *
-// **
-// ***
-// *
-```
+
+---
+## Challenge instructions
+
+1. Click on the green 'Clone or download' button and copy the link for this repo
+
+![how to clone a repo](https://www.stevejgordon.co.uk/wp-content/uploads/2018/01/CloneOrDownloadGitHub.png)
+
+2. Open your terminal, navigate to an empty folder on your laptop, and run the command `git clone [repo link]` to clone this repo.
+
+3. Open the cloned repo in your code editor and follow the instructions inside each folder's `challenge-x.js` file. 
+
+You can run your code by opening the appropriate `index.html` file in your web browser.
