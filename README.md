@@ -140,6 +140,8 @@ You can run your code by opening the appropriate `index.html` file in your web b
 ### Challenge pt 1
 Using the reduce() method, can we convert this array of countries and populations to an object, where each key is the country name, and the value is the population?
 
+Turn this: 
+
 ```js
 let data = [
   {
@@ -159,6 +161,12 @@ let data = [
     pop: 263991379,
   }
 ]
+```
+
+into this: 
+
+```
+{China: 1409517397, India: 1339180127, USA: 324459463, Indonesia: 263991379}
 ```
 
 ### Challenge pt 2
