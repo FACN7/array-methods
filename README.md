@@ -135,3 +135,64 @@ array.forEach(function(element){
 3. Open the cloned repo in your code editor and follow the instructions inside each folder's `challenge-x.js` file. 
 
 You can run your code by opening the appropriate `index.html` file in your web browser.
+
+
+### Challenge pt 1
+Using the reduce() method, can we convert this array of countries and populations to an object, where each key is the country name, and the value is the population?
+
+```js
+let data = [
+  {
+    country: 'China',
+    pop: 1409517397,
+  },
+  {
+    country: 'India',
+    pop: 1339180127,
+  },
+  {
+    country: 'USA',
+    pop: 324459463,
+  },
+  {
+    country: 'Indonesia',
+    pop: 263991379,
+  }
+]
+```
+
+### Challenge pt 2
+Using `Object.keys()` (look it up :D) and one of the other array methods, do the reverse of challenge 1. That is, convert your object of countries into an array that looks like `data` above.
+
+### Challenge pt 3
+Using reduce, calculate the sum of all sub-arrays 
+for example, the sum of the following array would be 27:
+```js
+var arr = [
+  [1,2,3],
+  [1,2,3],
+  [4,5,6]
+];
+```
+
+### Challenge pt 4
+You have learned that you can map an array and square every element in it, e.g.:
+```js
+  return [1,2,3].map(function(element){
+    return element*element;
+  } // Would return [1,4,9]
+```
+Implement the same functionality with reduce
+
+---
+
+### Challenge pt 5
+Use forEach to log an x amount of stars `*` where there's an x in the array, for example:
+```js
+arr = [1,2,3,1];
+// would log 
+// *
+// **
+// ***
+// *
+```
